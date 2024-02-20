@@ -1,0 +1,23 @@
+Source: sddm-conf
+Section: x11
+Priority: optional
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
+Rules-Requires-Root: no
+Build-Depends: cmake (>= 3.15),
+               debhelper-compat (= 13),
+               libqt5widgets5,
+               libqtilitools-dev,
+               qtbase5-dev,
+               qttools5-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/qtilities/sddm-conf/
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/sddm-conf-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/sddm-conf-packaging.git
+
+Package: sddm-conf
+Architecture: any
+Depends: polkitd, sddm, ${misc:Depends}, ${shlibs:Depends}
+Description: Configuration editor for SDDM
+ Configuration editor for SDDM similar to sddm-config-editor, but written in
+ C++. Requires polkit to save settings.

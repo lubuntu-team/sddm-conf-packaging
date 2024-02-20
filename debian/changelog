@@ -1,0 +1,15 @@
+sddm-conf (0.2.0-0ubuntu2) noble; urgency=medium
+
+  * New upstream release.
+  * Don't use the "Release" build type anymore, it could interfere with debug
+    info generation.
+  * Remove an inaccurate documentation field in upstream metadata.
+  * Created debian/watch file.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 20 Feb 2024 12:40:53 -0600
+
+sddm-conf (0.2.0~git20231105-0ubuntu1) noble; urgency=medium
+
+  * Initial release (LP: #2043824).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 17 Nov 2023 12:26:41 -0600
