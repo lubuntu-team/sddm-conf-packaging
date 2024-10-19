@@ -1,4 +1,4 @@
-sddm-conf (0.2.0-0ubuntu4) plucky; urgency=medium
+sddm-conf (0.2.0-0ubuntu8) plucky; urgency=medium
 
   * Switch to Qt 6.
   * Update Standards-Version to 4.7.0, no changes needed.
