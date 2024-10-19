@@ -1,9 +1,9 @@
-sddm-conf (0.2.0-0ubuntu4) UNRELEASED; urgency=medium
+sddm-conf (0.2.0-0ubuntu4) plucky; urgency=medium
 
   * Switch to Qt 6.
   * Update Standards-Version to 4.7.0, no changes needed.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 19 Oct 2024 15:32:20 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 19 Oct 2024 15:38:01 -0500
 
 sddm-conf (0.2.0-0ubuntu3) noble; urgency=medium
 
